@@ -1,7 +1,7 @@
 {
   "name": "pg-mem-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "node-postgres and pg-live-select load test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -58,6 +58,8 @@
 
         drawChart(document.getElementById('memory_chart'),
           [ 'heapTotal', 'heapUsed' ]);
+        drawChart(document.getElementById('response_times_chart'),
+          [ 'responseTimes' ]);
       });
     </script>
     <style>
@@ -72,5 +74,7 @@
     <pre>http://localhost:8000/index.html?out.json</pre>
     <h1>Memory Usage</h1>
     <div id='memory_chart' style='width: 900px; height: 500px;'></div>
+    <h1>Response Times</h1>
+    <div id='response_times_chart' style='width: 900px; height: 500px;'></div>
   </body>
 </html>

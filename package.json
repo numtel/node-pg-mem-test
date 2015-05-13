@@ -11,6 +11,7 @@
   "dependencies": {
     "babar": "0.0.3",
     "pg": "^4.3.0",
+    "pg-live-select": "1.0.2",
     "random-strings": "0.0.1"
   }
 }
